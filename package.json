@@ -1,0 +1,24 @@
+{
+  "name": "cse341",
+  "version": "1.0.0",
+  "description": "Class project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon Week1/WorkflowAndDebugging/app.js",
+    "debug": "nodemon --inspect Week1/WorkflowAndDebugging/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Warner-Felicia/WebBackend2.git"
+  },
+  "author": "Felicia Warner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Warner-Felicia/WebBackend2/issues"
+  },
+  "homepage": "https://github.com/Warner-Felicia/WebBackend2#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon Week3/DynamicRoutesAdvancedModels/app.js",
-    "debug": "nodemon --inspect Week3/DynamicRoutesAdvancedModels/app.js"
+    "start": "nodemon Week4/NoSQLandMongoDB/app.js",
+    "debug": "nodemon --inspect Week4/NoSQLandMongoDB/app.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,9 @@
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "express-handlebars": "^5.3.3",
-    "pug": "^3.0.2"
+    "mongodb": "^4.1.2",
+    "mongoose": "^6.0.9",
+    "pug": "^3.0.2",
+    "sequelize": "^6.6.5"
   }
 }

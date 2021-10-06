@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon Week4/NoSQLandMongoDB/app.js",
-    "debug": "nodemon --inspect Week4/NoSQLandMongoDB/app.js"
+    "start": "nodemon Week4/Mongoose/app.js",
+    "debug": "nodemon --inspect Week4/Mongoose/app.js"
   },
   "repository": {
     "type": "git",

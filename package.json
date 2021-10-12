@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon Week4/Mongoose/app.js",
-    "debug": "nodemon --inspect Week4/Mongoose/app.js"
+    "start": "nodemon Week5/SessionsAndCookies/app.js",
+    "debug": "nodemon --inspect Week5/SessionsAndCookies/app.js"
   },
   "repository": {
     "type": "git",
@@ -23,9 +23,11 @@
   },
   "dependencies": {
     "body-parser": "^1.19.0",
+    "connect-mongodb-session": "^3.1.1",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "express-handlebars": "^5.3.3",
+    "express-session": "^1.17.2",
     "mongodb": "^4.1.2",
     "mongoose": "^6.0.9",
     "pug": "^3.0.2",

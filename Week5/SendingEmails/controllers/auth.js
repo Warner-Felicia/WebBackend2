@@ -3,10 +3,11 @@ const nodemailer = require('nodemailer');
 const sendgridTransport = require('nodemailer-sendgrid-transport');
 
 const User = require('../models/user');
+const sendGridApiKey = require('../../../localVariables').sendGridApiKey;
 
 const transporter = nodemailer.createTransport(sendgridTransport({
   auth: {
-    api_key: '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'
+    api_key: sendGridApiKey
   }
 }));
 

@@ -1,10 +1,12 @@
 const mongodb = require('mongodb');
 const MongoClient = mongodb.MongoClient;
 
+const dbConnectionString = require('../../localVariables').dbConnectionString;
+
 let _db;
 
 const mongoConnect = (callback) => {
-  MongoClient.connect('mongodb+srv://foodles:q61iUB0qfaRSZPAp@cluster0.woawi.mongodb.net/shop?retryWrites=true&w=majority')
+  MongoClient.connect(dbConnectionString)
     .then(client => {
       _db = client.db();
       callback();

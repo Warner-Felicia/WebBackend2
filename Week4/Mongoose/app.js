@@ -6,6 +6,7 @@ const mongoose = require('mongoose');
 
 const errorController = require('./controllers/error');
 const User = require('./models/user');
+const dbConnectionString = require('../../localVariables').dbConnectionString;
 
 const app = express();
 
@@ -36,7 +37,7 @@ app.use(shopRoutes);
 app.use(errorController.get404);
 
 mongoose
-  .connect('mongodb+srv://foodles:q61iUB0qfaRSZPAp@cluster0.woawi.mongodb.net/shop?retryWrites=true&w=majority')
+  .connect(dbConnectionString)
   .then(result => {
     User.findOne()
       .then(user => {

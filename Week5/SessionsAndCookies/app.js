@@ -8,8 +8,9 @@ const MongoDBStore = require('connect-mongodb-session')(session);
 
 const errorController = require('./controllers/error');
 const User = require('./models/user');
+const dbConnectionString = require('../../localVariables').dbConnectionString;
 
-const MONGODB_URI = 'mongodb+srv://foodles:q61iUB0qfaRSZPAp@cluster0.woawi.mongodb.net/shop';
+const MONGODB_URI = dbConnectionString;
 
 const app = express();
 const store = new MongoDBStore({

@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon Week5/SendingEmails/app.js",
-    "debug": "nodemon --inspect Week5/SendingEmails/app.js"
+    "start": "nodemon Week6/AdvancedAuthentication/app.js",
+    "debug": "nodemon --inspect Week6/AdvancedAuthentication/app.js"
   },
   "repository": {
     "type": "git",

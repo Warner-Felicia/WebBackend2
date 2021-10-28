@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon Week6/UnderstandingValidation/app.js",
-    "debug": "nodemon --inspect Week6/UnderstandingValidation/app.js"
+    "start": "nodemon Week8/FileUploadAndDownload/app.js",
+    "debug": "nodemon --inspect Week8/FileUploadAndDownload/app.js"
   },
   "repository": {
     "type": "git",
